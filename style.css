@@ -1,0 +1,25 @@
+:root {
+	--roxo-escuro: #1d0c21;
+	--roxo-claro: #641f70;
+	--amarelo: #fecd23;
+	--azul-escuro: #2638dc;
+	--azul-claro: #72cdfe;
+}
+
+.container {
+	width: 600px;
+	background: linear-gradient(var(--roxo-escuro), var(--roxo-claro));
+	margin: auto;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.content {
+	background: linear-gradient(var(--roxo-claro), var(--roxo-escuro));
+	border-radius: 5px;
+}
+
+.options {
+	display: flex;
+	justify-content: space-around;
+}
